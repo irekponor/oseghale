@@ -1,0 +1,220 @@
+*{
+    list-style: none;
+    margin: 0rem;
+    padding: 0rem;
+    box-sizing: border-box;
+}
+
+#header{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    text-align: center;
+}
+
+.menu{
+    position: fixed;
+    background: #0b0c10;
+    width: 25%;
+    font-family: 'poppins', sans-serif;
+    padding: 0px 20px;
+}
+
+img{
+    margin-top: 3rem;
+    border-radius: 100%;
+}
+
+.menu h2{
+    color: #66fcf1;
+    margin-top: 2rem;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.menu h4{
+    margin-top: 1rem;
+    color: grey;
+}
+
+.menu ul li{
+    display: list-item;
+    list-style: none;
+    margin-top: 40px;
+}
+
+.menu ul li a{
+    color: #66fcf1;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+span{
+    color: #777;
+    font-size: 22px;
+}
+
+.social-icons{
+    margin-top: 2rem;
+}
+
+.fa-brands{
+    color: #66fcf1;
+    font-size: 15px;
+    padding-right: 15px;
+}
+
+.fa-brands:hover{
+    transform: translateY(-5px);
+}
+
+.menu h5{
+    color: #66fcf1;
+    margin-top: 1rem;
+}
+
+.body{
+    font-family: 'Kurale', serif;
+    padding: 10px 15px;
+    width: 100%;
+    height: 170vh;
+    background: #0b0c10;
+    color: #66fcf1;
+}
+
+.container{
+    padding-left: 20rem;
+}
+
+h1{
+    margin-top: 5rem;   
+    text-transform: uppercase;
+}
+
+p{
+    margin: 20px;
+    font-size: 20px;
+}
+
+.work-list{
+    padding-left: 20rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 5rem;
+    margin: 50px;
+}
+
+.work{
+    background: linear-gradient(rgba(0,0,0,0.6), #66fcf1);
+    color: #0b0c10;
+    border-radius: 15px;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 40px;
+    text-align: center;
+}
+
+.layer h3{
+    font-weight: bold;
+    font-size: 22px;
+    margin-top: 3rem;
+    margin-bottom: 0.8rem;
+}
+
+.layer p{
+    font-size: 20px;
+}
+
+.work a{
+    text-decoration: none;
+    color: #66fcf1;
+}
+
+.work i{
+    margin: 20px;
+    color: #0b0c10;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 60px;
+    background: #fff;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.work i:hover{
+    transform: translateY(-5px);
+}
+
+/*-------on screens less than 50rem wide, make the sidebar into a topbar----------*/
+
+@media only screen and (max-width: 50rem){
+    #header{
+        display: inline-block;
+        position: relative;
+        width: 90%;
+    }
+
+    .menu{
+        width: 100%;
+        position: absolute;
+        padding-right: 2.5rem;
+    }
+
+    .body{
+        padding: 10px 0px;
+        z-index: 9;
+        width: 100%;
+        height: 400vh;
+    }
+
+    .container{
+        margin-top: 50rem;
+    }
+
+    h1{
+        margin-right: 10rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

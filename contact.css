@@ -1,0 +1,160 @@
+*{
+    list-style: none;
+    margin: 0rem;
+    padding: 0rem;
+    box-sizing: border-box;
+}
+
+#header{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    text-align: center;
+}
+
+.menu{
+    position: fixed;
+    background: #0b0c10;
+    width: 25%;
+    font-family: 'poppins', sans-serif;
+    padding: 0px 20px;
+}
+
+img{
+    margin-top: 3rem;
+    border-radius: 100%;
+}
+
+.menu h2{
+    color: #66fcf1;
+    margin-top: 2rem;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.menu h4{
+    margin-top: 1rem;
+    color: grey;
+}
+
+.menu ul li{
+    display: list-item;
+    list-style: none;
+    margin-top: 40px;
+}
+
+.menu ul li a{
+    color: #66fcf1;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+span{
+    color: #777;
+    font-size: 22px;
+}
+
+.social-icons{
+    margin-top: 2rem;
+}
+
+.fa-brands{
+    color: #66fcf1;
+    font-size: 15px;
+    padding-right: 15px;
+}
+
+.fa-brands:hover{
+    transform: translateY(-5px);
+}
+
+.menu h5{
+    color: #66fcf1;
+    margin-top: 1rem;
+}
+
+.body{
+    font-family: 'Kurale', serif;
+    padding: 10px 15px;
+    width: 100%;
+    height: 140vh;
+    background: #0b0c10;
+    color: #66fcf1;
+}
+
+.contact{
+    padding-left: 18rem;
+}
+
+h1{
+    padding-left: 20rem;
+    letter-spacing: 15px;
+    margin-top: 6rem;
+    font-weight: 100;
+}
+
+h3{
+    text-align: center;
+    margin-top: 30px;
+    padding: 0 3rem;
+    font-size: 18px;
+    font-weight: 100;
+    padding-left: 5rem;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 2vw 10vw;
+    border-radius: 10px;
+}
+
+p{
+    text-align: left;
+    font-weight: bold;
+}
+
+input, textarea{
+    border: 1px solid;
+    margin: 10px 0;
+    padding: 20px;
+    outline: none;
+    background: #66fcf1;
+    font-size: 16px;
+    border-radius: 15px;
+}
+
+button{
+    padding: 15px;
+    background: #66fcf1;
+    color: #0b0c10;
+    font-size: 20px;
+    font-weight: 600;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    width: 150px;
+    margin: 20px auto 0;
+    border-radius: 15px;
+    margin-top: 10px;
+  }
+
+  .successmessage,
+  .errormessage, .statusMessage{
+    padding-left: 10rem;
+    display: none;
+    margin: auto;
+    width: 100%;
+    height: auto;
+    background: #fff;
+    border: 1px solid #ddd;
+    margin: 0 auto;
+    box-shadow: 0 0 8px #aaa;
+    -moz-box-shadow: 0 0 8px #aaa;
+    -webkit-box-shadow: 0 0 8px #aaa;
+    padding: 20px 2e0px 0;
+    color: #0b0c10;
+  }
+  
+  
